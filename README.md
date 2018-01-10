@@ -7,7 +7,7 @@ Custom single-line whitespace de- and encoder
 
 ## :information_source: About
 
-This NodeJS package allows you to encode text to whitespace and vice versa.
+This NodeJS package allows you to encode text to whitespace and vice versa. <br>
 **Note:** This is **CUSTOM** whitespace! There are _no_ linebreaks! Only tabs and spaces.
 
 ## :postbox: NPM
