@@ -13,8 +13,8 @@ This NodeJS package allows you to encode text to whitespace and vice versa. <br>
 How?
 
 ```Assembly
-    a = 97           - ASCII Character code in decimal
-    a = 1100001      - Same value in binary
+    a = 97                        - ASCII Character code in decimal
+    a = 1100001                   - Same value in binary
     a = '		    	' - In Whitespace
 ```
 
