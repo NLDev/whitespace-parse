@@ -10,6 +10,14 @@ Custom single-line whitespace de- and encoder
 This NodeJS package allows you to encode text to whitespace and vice versa. <br>
 **Note:** This is **CUSTOM** whitespace! There are _no_ linebreaks! Only tabs and spaces.
 
+How?
+
+```Assembly
+    a = 97           - ASCII Character code in decimal
+    a = 1100001      - Same value in binary
+    a = '		    	' - In Whitespace
+```
+
 ## :postbox: NPM
 
 [![](https://nodei.co/npm/whitespace-parse.svg?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/whitespace-parse)
