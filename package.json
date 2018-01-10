@@ -1,0 +1,32 @@
+{
+    "name": "whitespace-parse",
+    "version": "0.31.0",
+    "description": "A custom whitespace to text (and vice versa) parser.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NLDev/whitespace-parse.git"
+    },
+    "maintainers": [
+        {
+            "name": "NullDev",
+            "email": "admin@nulldev.org",
+            "web": "nulldev.org"
+        }
+    ],
+    "keywords": [
+        "whitespace",
+        "encode",
+        "encoder",
+        "decode",
+        "decoder",
+        "parse",
+        "parser"
+    ],
+    "author": "NullDev",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/NLDev/whitespace-parse/issues"
+    },
+    "homepage": "https://github.com/NLDev/whitespace-parse#readme"
+}
