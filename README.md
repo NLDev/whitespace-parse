@@ -18,6 +18,10 @@ How?
     a = '		    	' - In Whitespace
 ```
 
+So each character has a sequence of exactly 7 binary values. <br>
+If the the encoding of a string has less characters, for example "!" which decodes to "100001" (6 characters) a padding needs to be applied at the start of the string. <br>
+In this case it would be 0 + 100001 to get to the 7 characters.
+
 ## :postbox: NPM
 
 [![](https://nodei.co/npm/whitespace-parse.svg?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/whitespace-parse)
