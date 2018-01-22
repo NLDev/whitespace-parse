@@ -38,9 +38,9 @@ npm i whitespace-parse
 
 ## :bulb: API
 
-- decode()
-- encode()
-- toBinary()
+- [decode()](https://github.com/NLDev/whitespace-parse#decode)
+- [encode()](https://github.com/NLDev/whitespace-parse#encode)
+- [toBinary()](https://github.com/NLDev/whitespace-parse#tobinary)
 
 ### decode()
 
