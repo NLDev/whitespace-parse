@@ -54,4 +54,4 @@ console.log(whitespace.encode("Hi"));
 
 ## :copyright: Copyright
 
-`Copyright (c) 2017 NullDev`
+`Copyright (c) 2018 NullDev`
