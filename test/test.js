@@ -20,3 +20,15 @@ let testStr2 = "Hi!";
 console.log("'" + testStr2 + "' = '" + whitespace.encode(testStr2) + "'");
 
 console.log();
+
+let testStr3 = "hi";
+
+console.log("'" + testStr3 + "' = '" + whitespace.toBinary(testStr3) + "'");
+
+console.log();
+
+let testStr4 = "hey";
+
+console.log("'" + testStr4 + "' = '" + whitespace.toBinary(testStr4, true) + "'");
+
+console.log();
