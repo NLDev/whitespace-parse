@@ -13,9 +13,9 @@ This NodeJS package allows you to encode text to whitespace and vice versa. <br>
 How?
 
 ```Assembly
-    a = 97                        - ASCII Character code in decimal
-    a = 1100001                   - Same value in binary
-    a = '		    	' - In Whitespace
+a = 97                        - ASCII Character code in decimal
+a = 1100001                   - Same value in binary
+a = '		    	'     - In Whitespace
 ```
 
 So each character has a sequence of exactly 7 binary values. <br>
@@ -36,7 +36,17 @@ npm i whitespace-parse
 
 <hr>
 
-## :bulb: Usage
+## :bulb: API
+
+- decode()
+- encode()
+- toBinary()
+
+### decode()
+
+| No. | Arguments | Description | Required | Default |
+| --- | --- | --- | --- | --- |
+| 1 | string | the whitespace string to decode | yes | N/A |
 
 **Example:**
 
@@ -45,9 +55,40 @@ var whitespace = require("whitespace-parse");
 
 console.log(whitespace.decode("	  	   		 	  	"));
 // => "Hi"
+```
+
+### encode()
+
+| No. | Arguments | Description | Required | Default |
+| --- | --- | --- | --- | --- |
+| 1 | string | the ASCII string to encode | yes | N/A |
+
+**Example:**
+
+```Javascript
+var whitespace = require("whitespace-parse");
 
 console.log(whitespace.encode("Hi"));
 // => "	  	   		 	  	"
+```
+
+### toBinary()
+
+| No. | Arguments | Description | Required | Default |
+| --- | --- | --- | --- | --- |
+| 1 | string | The ASCII string to encode | yes | N/A |
+| 2 | boolean | Should all character sequences be split by a space | no | no |
+
+**Example:**
+
+```Javascript
+var whitespace = require("whitespace-parse");
+
+console.log(whitespace.toBinary("hi"));
+// => "11010001101001"
+
+console.log(whitespace.toBinary("hi", true));
+// => "1101000 1101001"
 ```
 
 <hr>
