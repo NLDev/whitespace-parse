@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NLDev/whitespace-parse.git"
+    "url": "git+https://github.com/NullDev/whitespace-parse.git"
   },
   "maintainers": [
     {
@@ -26,7 +26,7 @@
   "author": "NullDev",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/NLDev/whitespace-parse/issues"
+    "url": "https://github.com/NullDev/whitespace-parse/issues"
   },
-  "homepage": "https://github.com/NLDev/whitespace-parse#readme"
+  "homepage": "https://github.com/NullDev/whitespace-parse#readme"
 }
