@@ -1,7 +1,6 @@
 # Whitespace-Parse
 
 <p align="center">
-<img height="150" width="auto" src="https://nulldev.org/img/whitespace.png" /><br>
 Custom single-line whitespace de- and encoder
 </p>
 
@@ -95,4 +94,4 @@ console.log(whitespace.toBinary("hi", true));
 
 ## :copyright: Copyright
 
-`Copyright (c) 2018 NullDev`
+`Copyright (c) NullDev`
